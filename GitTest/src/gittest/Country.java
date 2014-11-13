@@ -5,8 +5,9 @@ public class Country {
 	private String name;
 	private City capital;
 	private Continent continent;
+	private int pop;
 	
-	public Country(String name, City capital, Continent continent) {
+	public Country(String name, City capital, Continent continent, int pop) {
 		if (name == null || name.isEmpty()) { 
 		    throw new IllegalArgumentException("Country name must not be null or empty"); 
 		}
@@ -16,6 +17,7 @@ public class Country {
 		this.name = name;
 		this.capital = capital;
 		this.continent = continent;
+		this.pop = pop;
 	}
 	
 	public String name() {
