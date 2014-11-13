@@ -19,7 +19,7 @@ public class City {
 	}
 	
 	public  boolean isCapital() {
-		return country.getCapital().name().equals(name);
+		return country.capital().name().equals(name);
 	}
 	
 	public String toString() {
