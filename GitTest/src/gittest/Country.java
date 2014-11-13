@@ -26,6 +26,10 @@ public class Country {
 		return capital;
 	}
 	
+	public Continent continent() {
+		return continent;
+	}
+	
 	public String toString() {
 		return name + "(" + continent + "), capital is " + capital.name();
 	}
