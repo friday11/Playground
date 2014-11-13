@@ -14,6 +14,10 @@ public class Country {
 		return name;
 	}
 	
+	public City capital() {
+		return capital;
+	}
+	
 	public String toString() {
 		return name + ", capital is " + capital.name();
 	}
