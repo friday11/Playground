@@ -7,10 +7,10 @@ public class Country {
 	
 	public Country(String name, City capital) {
 		if (name == null || name.isEmpty()) { 
-		    throw new IllegalArgumentException("Name must not be null or empty"); 
+		    throw new IllegalArgumentException("Country name must not be null or empty"); 
 		}
 		if (capital == null) { 
-		    throw new IllegalArgumentException("Capital must not be null"); 
+			throw new IllegalArgumentException("Capital must not be null"); 
 		}
 		this.name = name;
 		this.capital = capital;
