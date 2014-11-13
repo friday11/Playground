@@ -7,6 +7,7 @@ public class City {
 	
 	public City(String name, Country country) {
 		this.name = name;
+		this.country = country;
 	}
 	
 	public String name() {
