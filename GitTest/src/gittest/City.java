@@ -18,6 +18,10 @@ public class City {
 		return country;
 	}
 	
+	public  boolean isCapital() {
+		return country.getCapital().name().equals(name);
+	}
+	
 	public String toString() {
 		return name + ", " + country().name();
 	}
