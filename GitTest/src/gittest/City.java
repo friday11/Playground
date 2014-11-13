@@ -29,6 +29,10 @@ public class City {
 	}
 	
 	public String toString() {
-		return name + ", " + country().name();
+		if (isCapital()) {
+			return name + ", capital of " + country().name();
+		} else {
+			return name + ", " + country().name();
+		}
 	}
 }

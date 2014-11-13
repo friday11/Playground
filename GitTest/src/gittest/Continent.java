@@ -1,5 +1,5 @@
 package gittest;
 
 public enum Continent {
-    Africa, Asia, Australia, Europe, North_America, South_America, Antarctica;
+    Africa, Asia, Australia, Europe, NoAmerica, SoAmerica, Antarctica;
 }
