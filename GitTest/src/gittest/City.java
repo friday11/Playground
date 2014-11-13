@@ -9,7 +9,6 @@ public class City {
 		if (name == null || name.isEmpty()) { 
 		    throw new IllegalArgumentException("Name must not be null or empty"); 
 		}
-
 		if (country == null) {
 			throw new IllegalArgumentException("Country must not be null");
 		}
