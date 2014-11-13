@@ -27,6 +27,6 @@ public class Country {
 	}
 	
 	public String toString() {
-		return name + ", capital is " + capital.name();
+		return name + "(" + continent + "), capital is " + capital.name();
 	}
 }
